@@ -14,6 +14,8 @@ Abstract
 --------
 
 The governance structure gets more democratic elements and only three different roles are established.
+This way, all contributions, e.g. "beyond code", are recognized equally and get the
+same rights and obgligations.
 
 
 Detailed description
@@ -27,8 +29,8 @@ gets the following revisions:
    2. Establish 3 different roles:
 
       - contributor
-      - core contributor with voting rights, i.e. core developer is replaced by core
-          contributor
+      - core contributor with voting rights, i.e. "core developer" is replaced by
+        "core contributor"
       - member of the technical committee which has to be a core member (unchanged)
 
    3. Prolong core contributor voting period from 1 to 2 weeks.
@@ -55,7 +57,7 @@ There are three basic roles.
 invest time and energy to improve the project for the greater community. Anyone can
 become a contributor, and contributions can take many forms - be it coding,
 reviewing code, communications, organization, triaging, ... - as detailed in the
-contributors guide.""
+contributors guide."
 
 **Core Contributor**
 Change "core developer" to "core contributor" everywhere. Core contributors are defined
@@ -85,26 +87,30 @@ Therefore, core contributors are given the following rights:
   - Cast vote for, i.e. approve, or cast a vote against pull-requests.
   - Merge pull-requests.
 
-New core contributors can be nominated by any existing core contributors.
+New core contributors can be nominated by any existing core contributor.
 Once they have been nominated, there will be a vote by the current core contributors.
 Voting on new core contributors is one of the few activities that takes place on the project's private management list.
 While it is expected that most votes will be unanimous, a two-thirds majority of the
 cast votes is enough. The vote needs to be open for at least 2 weeks.
 
-Core contributors that have not resonably contributed to the project in the past 12
-months will be asked if they want to become emeritus core contributors and recant their
-commit and voting rights until they become active again.
-The list of core contributors, active and emeritus (with dates at which they became
-active) is public on the scikit-learn website."
+Core contributors can step back from their role and privileges at any time.
+If they have not reasonably contributed to the project in the past 12 months, they will
+be kindly asked to step back by the technical committee.
+As ultima ratio, the technical committee is allowed to call for a vote to withdraw the
+core contributor role from somebody.
+A 3/4 majority of all current core contributors needed that this vote passes.
+It is open for 2 weeks and is done on a private list.
+Core contributors that step back can, if they want to, be listed as emeritus core
+contributors on the public website."
 
 
 Discussion
 ----------
 
-[SLEP019](https://scikit-learn-enhancement-proposals.readthedocs.io/en/latest/slep019/proposal.html) This section may just be a bullet list including links to any discussions
-regarding the SLEP:
+Preceding attempts to change governance and roles:
 
-- This includes links to mailing list threads or relevant GitHub issues.
+- `SLEP019 <https://scikit-learn-enhancement-proposals.readthedocs.io/en/latest/slep019/proposal.html>`_ Governance Update - Recognizing Contributions Beyond Code
+- `SLEP20 <https://scikit-learn-enhancement-proposals.readthedocs.io/en/latest/slep020/proposal.html>`.
 
 
 References and Footnotes
